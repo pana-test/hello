@@ -57,6 +57,6 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master -r \"https://daniyalnagori:7ab1cf27bc6e22af327303530cb9371153eb5071@github.com/daniyalnagori/daniyalnagori.github.io.git\""
+    "deploy": "gatsby build && gh-pages -d public -b master -r \"https://daniyalnagori:$PA_TOKEN@github.com/pana-test/pana-test.github.io.git\""
   }
 }
